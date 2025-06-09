@@ -3,3 +3,92 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-family: Roboto, sans-serif;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+body{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    gap: 50px;
+    background-color: #0b7189;
+    color: white;
+
+}
+
+.profile-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.profile-pic{
+    height:120px;
+    clip-path: circle(60px);
+}
+
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section h2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+ul{
+    margin-left: 30px;
+}
+
+li{
+    margin-top: 5px;
+}
+
+footer{
+    background-color: #333333;
+    padding: 50px 30px 52px 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+footer h3{
+    font-size: 30px;
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-links a{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
